@@ -1,4 +1,4 @@
-JavaScript Programming Day01
+JavaScript Programming Day02
 
 Topics:
     If Statements
