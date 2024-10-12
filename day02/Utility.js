@@ -21,4 +21,4 @@ function calculate(num1, num2, operator) {
     }
 }
 
-module.exports = { square, cube, calculate}
+module.exports = { square, cube, calculate} // exporting
