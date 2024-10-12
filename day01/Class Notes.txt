@@ -5,15 +5,16 @@ Topics:
     Variables
     let vs var
     Operators
-    If Statements
-    Loops
 
     Perplexity AI
 
 Next Class:
+    If Statements
+    Loops
     String
     Array
     Functions
+    Class & Objects
 
     Tabnine - AI Coding Tool (Code generation, Documentation)
 
