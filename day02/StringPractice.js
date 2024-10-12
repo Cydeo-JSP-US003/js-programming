@@ -67,3 +67,13 @@ console.log("Student's name is: " + studentName + ", and student's age is " + st
 
 console.log(`Student's name is ${studentName}, and student's age is ${studentAge} years old`);
 
+console.log("---------------------------------------");
+
+let course = "Playwright automation";
+
+for (let index = 0; index < course.length; index++) {
+    
+    console.log(course[index]);
+    
+}
+
