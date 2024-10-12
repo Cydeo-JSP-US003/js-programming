@@ -58,6 +58,12 @@ console.log(email.endsWith("gmail.com"));
 
 console.log("---------------------------------------");
 
+let studentName = "Hasan";
+
+let studentAge = 30;
+
+console.log("Student's name is: " + studentName + ", and student's age is " + studentAge + " years old");
 
 
+console.log(`Student's name is ${studentName}, and student's age is ${studentAge} years old`);
 
