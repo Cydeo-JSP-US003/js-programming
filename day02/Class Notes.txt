@@ -1,0 +1,19 @@
+JavaScript Programming Day01
+
+Topics:
+    If Statements
+    Loops
+    String
+    Array
+    Functions
+    Class & Objects
+
+    Tabnine - AI Coding Tool (Code generation, Documentation)
+
+
+Next Topics:
+    Inheritance
+    Exception/Error Handlings
+    Promises
+    Async & Await
+
