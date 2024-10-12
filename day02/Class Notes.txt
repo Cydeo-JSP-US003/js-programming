@@ -17,3 +17,8 @@ Next Topics:
     Promises
     Async & Await
 
+
+You must enroll in the following:
+    1. The Discord server named 'CYDEO Programs'
+    2. The GitHub organization named 'Cydeo-JSP-US003'
+
