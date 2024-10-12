@@ -6,6 +6,7 @@ Topics:
     String
     Array
     Functions
+    Importing & exporting
     Class & Objects
 
     Tabnine - AI Coding Tool (Code generation, Documentation)
@@ -16,6 +17,10 @@ Next Topics:
     Exception/Error Handlings
     Promises
     Async & Await
+
+
+Next Next Class:
+    Introduction to playwright automation
 
 
 You must enroll in the following:
