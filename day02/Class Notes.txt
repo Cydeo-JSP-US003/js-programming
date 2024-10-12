@@ -9,10 +9,9 @@ Topics:
     Importing & exporting
     Class & Objects
 
-    Tabnine - AI Coding Tool (Code generation, Documentation)
-
 
 Next Topics:
+    Tabnine - AI Coding Tool (Code generation, Documentation)
     Inheritance
     Exception/Error Handlings
     Promises
