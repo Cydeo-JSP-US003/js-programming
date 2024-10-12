@@ -1,0 +1,35 @@
+JavaScript Programming Day01
+
+Topics:
+    Installations & Setups
+    Variables
+    let vs var
+    Operators
+    If Statements
+    Loops
+
+    Perplexity AI
+
+Next Class:
+    String
+    Array
+    Functions
+
+    Tabnine - AI Coding Tool (Code generation, Documentation)
+
+
+Assignment (After the VS Code website back online):
+    1. Install VS Code (watch the videos)
+    2. Install the first 12 extensions
+    3. VS Code settings (watch the videos)
+
+
+VS Code Settings:   
+        font
+        autocomplete
+        auto save
+        clear previous output
+
+Format:
+    windows: Shift + Alt + f
+    mac: option + shift + f
