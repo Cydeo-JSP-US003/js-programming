@@ -2,12 +2,13 @@ JavaScript Programming Day03:
 
 Topics:
     Tabnine - AI Coding Tool (Code generation, Documentation)
+    Tabnine - AI Coding Tool (Prompt template, debug)
 	Inheritance
 	Errors
 	Promises
 	Async & Await
 
-    Tabnine - AI Coding Tool (Prompt template, debug)
+    
 
 
 Next Class:
