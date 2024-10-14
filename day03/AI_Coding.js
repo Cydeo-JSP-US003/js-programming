@@ -88,3 +88,57 @@ for (let i = 0; i < nums.length - 1; i++) {
 }
 
 console.log(`Sorted array in ascending order: ${nums}`);
+
+console.log("----------------------------------------------------------------");
+
+// create an array that contains multiple duplicated elements
+let duplicates = [1, 2, 3, 4, 4, 4, 5, 6, 6, 6, 7, 7, 7, 7, 0, 0, 8, 8, 8, 8, 9, 9, 9];
+
+// write a program that can remove all the duplicated elements from the duplicates array
+let uniqueArray = [];
+
+for (let number of duplicates) {
+  if (!uniqueArray.includes(number)) {
+    uniqueArray.push(number);
+  }
+}
+
+
+console.log(`Array with unique elements: ${uniqueArray}`);
+
+console.log("----------------------------------------------------------------");
+
+/*
+Create a class named Item with the following requiremnts:
+    Attributes:
+        itemName, price, quantity
+
+    Methods:
+      constructor: initializing all the fields
+      calculateTotalPrice: returns the total price of the item (price * quantity)
+      toString: returns the string representation
+*/
+
+
+class Item {
+    constructor(itemName, price, quantity) {
+        this.itemName = itemName;
+        this.price = price;
+        this.quantity = quantity;
+    }
+
+    calculateTotalPrice() {
+        return this.price * this.quantity;
+    }
+
+    toString() {
+        return `Item: ${this.itemName}, Price: ${this.price}, Quantity: ${this.quantity}, Total Price: ${this.calculateTotalPrice()}`;
+    }
+}
+
+// create instances of Item class and display their information
+let item1 = new Item("Laptop", 1000, 2);
+console.log(item1.toString());
+
+let item2 = new Item("Mouse", 50, 5);
+console.log(item2.toString());
