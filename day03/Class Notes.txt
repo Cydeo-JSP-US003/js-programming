@@ -1,0 +1,20 @@
+JavaScript Programming Day03:
+
+Topics:
+    Tabnine - AI Coding Tool (Code generation, Documentation)
+	Inheritance
+	Errors
+	Promises
+	Async & Await
+
+    Tabnine - AI Coding Tool (Prompt template, debug)
+
+
+Next Class:
+    Introduction to Playwright
+    Interacting with Browsers
+    Global Configurations (headless, headed, parallel, workers, cross browser testing)
+    
+
+    
+	
