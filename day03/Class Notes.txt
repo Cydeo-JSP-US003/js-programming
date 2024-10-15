@@ -12,6 +12,8 @@ Topics:
 
 
 Next Class:
+    Promises
+	Async & Await
     Introduction to Playwright
     Interacting with Browsers
     Global Configurations (headless, headed, parallel, workers, cross browser testing)
