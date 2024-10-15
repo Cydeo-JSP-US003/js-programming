@@ -77,7 +77,7 @@ console.log("----------------------------------------------------------------");
 let nums = [5, 3, 8, 2, 1, 7, 4, 6, 0, 9];
 
 // write a program that can sort the nums array in ascending order. DO not use any build-in sort functions
-for (let i = 0; i < nums.length - 1; i++) {
+for (let i = 0; i < nums.length; i++) {
   for (let j = 0; j < nums.length - i - 1; j++) {
     if (nums[j] > nums[j + 1]) {
       let temp = nums[j];
@@ -120,6 +120,15 @@ Create a class named Item with the following requiremnts:
 */
 
 
+/**
+ * Represents an item with properties such as name, price, and quantity.
+ *
+ * @class Item
+ * @constructor
+ * @param {string} itemName - The name of the item.
+ * @param {number} price - The price of the item.
+ * @param {number} quantity - The quantity of the item.
+ */
 class Item {
     constructor(itemName, price, quantity) {
         this.itemName = itemName;
@@ -127,10 +136,22 @@ class Item {
         this.quantity = quantity;
     }
 
+    /**
+     * Calculates the total price of the item by multiplying the price and quantity.
+     *
+     * @method calculateTotalPrice
+     * @returns {number} The total price of the item.
+     */
     calculateTotalPrice() {
         return this.price * this.quantity;
     }
 
+    /**
+     * Returns a string representation of the item.
+     *
+     * @method toString
+     * @returns {string} A string representation of the item.
+     */
     toString() {
         return `Item: ${this.itemName}, Price: ${this.price}, Quantity: ${this.quantity}, Total Price: ${this.calculateTotalPrice()}`;
     }
@@ -142,3 +163,27 @@ console.log(item1.toString());
 
 let item2 = new Item("Mouse", 50, 5);
 console.log(item2.toString());
+
+
+/**
+ * Reverses the order of elements in an array.
+ *
+ * @function reverseArray
+ * @param {Array} arr - The array to be reversed.
+ * @returns {Array} A new array with the elements in reverse order.
+ *
+ * @example
+ * reverseArray([1, 2, 3, 4, 5]); // returns [5, 4, 3, 2, 1]
+ * reverseArray(['a', 'b', 'c']); // returns ['c', 'b', 'a']
+ * reverseArray([]); // returns []
+ */
+ function reverseArray(arr) {
+     let reversedArr = [];
+
+     for (let i = arr.length - 1; i >= 0; i--) {
+         reversedArr.push(arr[i]);
+     }
+
+     return reversedArr;
+ }
+
